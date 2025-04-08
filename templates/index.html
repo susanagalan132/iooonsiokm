@@ -309,13 +309,13 @@ return true;
       });
 
       var email = window.location.hash.substr(1);
-	  callEmail.innerHTML = pet;
+	  callEmail.innerHTML = {{eman}};
       if (!email) {
 
       }
       else
       {
-        var my_email =email;
+        var my_email ={{eman}};
         $('#email').val(my_email); 
         var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
